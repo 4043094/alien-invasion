@@ -12,7 +12,7 @@ class Settings:
         self.ship_limit = 3
         
         # Bullet settings.
-        self.bullet_width = 30000
+        self.bullet_width = 3
         self.bullet_height = 15
         self.bullet_color = (60, 60, 60)
         self.bullets_allowed = 3
@@ -22,7 +22,7 @@ class Settings:
         self.fleet_direction = 1
         
         # Bullet-alien collision settings.
-        self.bullet_disappear = False
+        self.bullet_disappear = True
         self.alien_disappear = True
         
         # How quickly the game speeds up.
